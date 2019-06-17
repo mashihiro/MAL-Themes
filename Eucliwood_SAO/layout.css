@@ -1,0 +1,243 @@
+/*
+//Sword Art Online list template by Eucliwood.
+//Feel free to use this!
+//All you need to do is copy and paste this into your css editor.
+*/
+
+/*
+// Self-explanatory
+*/
+BODY
+{
+background-image: url(http://i.imgur.com/ow96x.jpg), url(http://i.imgur.com/GzEv3.gif);
+background-attachment: fixed;
+background-repeat: no-repeat, repeat;
+background-position: bottom center;
+font-family: Arial, sans-serif !important;
+font-size: 12px;
+}
+
+/*
+// Determines the positioning of your list
+*/
+
+#list_surround
+{
+margin: 0 auto !important;
+right: 0px;
+left: 0px;
+width: 607px;
+border-style: inset;
+border-width: 5px;
+border-top:none;
+border-bottom:none;
+border-color: #000000;
+padding-top: 340px;
+background:url(http://i48.tinypic.com/2lsfk76.png) no-repeat;
+-moz-box-shadow: 0 0 4px 4px #444444;
+-webkit-box-shadow: 0 0 4px 4px #444444;
+-o-box-shadow: 0 0 4px 4px #444444;
+box-shadow: 0 0 4px 4px #444444;
+}
+
+/*
+// All links on your list
+*/
+
+a
+{
+color: #000000;
+text-decoration: none;
+}
+
+a:visited
+{
+color: #000000;
+text-decoration: none;
+}
+
+a:hover
+{
+color: #000000;
+text-decoration: underline;
+}
+
+/*
+// Alternating row color 1 
+*/
+
+.td1
+{
+
+color: ;
+border-width: ;
+border-style: ;
+border-color: ;
+padding: ;
+background-color: ; 
+}
+
+/*
+// Alternating row color 2 
+*/
+
+.td2
+{
+
+color: ;
+border-width: ;
+border-style: ;
+border-color: ;
+padding: ;
+background-color: ; 
+}
+
+/*
+// This represents the "Anime Title", "Score", "# Eps" columns 
+*/
+
+.table_header
+{
+
+color: ;
+border-width: ;
+border-style: ;
+border-color: ;
+background-color: ;
+padding: ;
+}
+
+/*
+// headerLink represents the color of the links inside the_header 
+*/
+
+.table_headerLink
+{
+color: ;
+}
+
+.table_headerLink:Visited
+{
+color: ;
+}
+
+.table_headerLink:Hover
+{
+color: ;
+}
+
+/*
+// Controls the select form decoration (the drop down select box)
+*/
+
+.form
+{
+border-width: ;
+border-color: ;
+border-style: ;
+color: ;
+padding: ;
+font-size: px;
+font-family: ;
+}
+
+
+/* Which 'status' up top is selected? */
+
+.status_selected
+{
+
+border-style: none;
+background-color: #ffffff;
+text-decoration: underline;
+}
+
+.status_not_selected
+{
+
+background-color: #ffffff;
+border-style: none;
+}
+
+/*
+Header classes for Currently Watching, Completed, Dropped, etc...
+*/
+
+.header_cw, .header_completed, .header_onhold, .header_dropped, .header_ptw
+{
+background-color: #000000;
+}
+.header_title {
+color: #ffffff;
+text-align: center;
+font-size: 18px;
+font-weight: bold;
+}
+
+
+.category_totals
+{
+text-align: center;
+}
+
+#grand_totals
+{
+color: #ffffff;
+background-color: #000000;
+text-align: center;
+}
+
+/* header_al is thesurrounding "User's Anime List" at the top */
+
+.header_al
+{
+font-weight: bold;
+font-size: 16px;
+}
+
+/* header_al_links is thewith your "Profile" and "MyAnimeList home" links */
+.header_al_links
+{
+
+}
+
+/* controls what styles you can give to all the anime titles in your list */
+.animetitle
+{
+font-weight: normal;
+}
+
+/*
+FIX MENU BAR TO THE TOP
+*/
+#mal\_control\_strip
+{
+position: fixed !important;
+}
+
+
+/*
+copyright contains the "Producted by Garrett Gyssler" text
+DO NOT REMOVE OR HIDE THIS DIV
+IF FOUND TO BE REMOVED, YOUR LIST WILL BE REMOVED TOO
+*/
+
+#copyright
+{
+color: #ffffff;
+background-color: #000000;
+padding-bottom: 6px;
+padding-top: 6px;
+text-align: center;
+margin: 0 auto;
+width: px;
+}
+#copyright a, #copyright a:hover
+{
+color: #ffffff;
+}
+#copyright:after
+{
+content:'Sword Art Online theme template by Eucliwood.';
+display: block;
+}
