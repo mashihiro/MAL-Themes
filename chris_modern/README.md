@@ -1,7 +1,7 @@
 ```
 Usage:
 
-@\import "https://raw.githack.com/dalin6/MAL-Themes/master/chris_modern/layout.css";
+@\import "https://raw.githack.com/mashihiro/MAL-Themes/master/chris_modern/layout.css";
 @\import "https://malscraper.azurewebsites.net/covers/auto";
 
 /* Banner */
