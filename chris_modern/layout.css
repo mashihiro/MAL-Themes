@@ -1,7 +1,7 @@
 BODY {
     background-attachment: fixed !important;
     background-color: #f0f0f0 !important;
-    background-image: url("https://raw.githubusercontent.com/mashihiro/MAL-Themes/master/chris_modern/assets/background2.png") 
+    background-image: url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/background2.png") 
 !important;
     color:white;
     background-repeat: repeat-x !important;
@@ -131,19 +131,19 @@ tr:hover .td2, tr:hover .td1 {
     text-transform: lowercase;
 }
 #list_surround .header_cw {
-    background: #e5e5e5 url("https://raw.githubusercontent.com/mashihiro/MAL-Themes/master/chris_modern/assets/watching.png") no-repeat scroll center center;
+    background: #e5e5e5 url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/watching.png") no-repeat scroll center center;
 }
 #list_surround .header_completed {
-    background: #e5e5e5 url("https://raw.githubusercontent.com/mashihiro/MAL-Themes/master/chris_modern/assets/completed.png") no-repeat scroll center center;
+    background: #e5e5e5 url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/completed.png") no-repeat scroll center center;
 }
 #list_surround .header_onhold {
-    background: #e5e5e5 url("https://raw.githubusercontent.com/mashihiro/MAL-Themes/master/chris_modern/assets/hold.png") no-repeat scroll center center;
+    background: #e5e5e5 url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/hold.png") no-repeat scroll center center;
 }
 #list_surround .header_ptw {
-    background: #e5e5e5 url("https://raw.githubusercontent.com/mashihiro/MAL-Themes/master/chris_modern/assets/planning.png") no-repeat scroll center center;
+    background: #e5e5e5 url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/planning.png") no-repeat scroll center center;
 }
 #list_surround .header_dropped {
-    background: #e5e5e5 url("https://raw.githubusercontent.com/mashihiro/MAL-Themes/master/chris_modern/assets/dropped.png") no-repeat scroll center center;
+    background: #e5e5e5 url("https://raw.githubusercontent.com/zeka-mashi/MAL-Themes/master/chris_modern/assets/dropped.png") no-repeat scroll center center;
 }
 #list_surround .header_cw, #list_surround .header_completed, #list_surround .header_onhold, #list_surround .header_ptw, #list_surround .header_dropped {
     border-radius: 25px 25px 0 0;
@@ -377,6 +377,7 @@ td.status_selected:last-child {
 }
 
 /* Tags as Reviews */
+/*
 td[class^='td']:nth-of-type(6) a:hover {
     border-bottom: none !important;
 }
@@ -384,8 +385,10 @@ td[class^='td']:nth-of-type(6) a:hover {
 td[class^='td']:nth-of-type(6) a:link {
     pointer-events: none !important;
 }
+*/
 
 /* ADDITIONS */
+/*
 td[class^='td']:nth-of-type(6) {
     visibility: hidden;
     opacity: 0;
@@ -405,17 +408,22 @@ td[class^='td']:nth-of-type(6) {
     margin-top: -285px;
     z-index: 1;
 }
+*/
 
 /* TAG TEXT COLOR*/
+/*
 tr:hover td[class^='td']:nth-of-type(6) a { 
     color: black !important;
 }
+*/
 
 /* OTHER SETTINGS */
+/*
 .hide:hover, tr:hover td[class^='td']:nth-of-type(6) {
     visibility: visible;
     opacity: 1;
 }
+*/
 
 /* REMOVE TABLE HEADER
 Deletes the table header Tags which isn't necessary.
